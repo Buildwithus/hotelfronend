@@ -1,0 +1,1199 @@
+.boody {
+    margin-top: 5rem;
+}
+#root{
+    background-color: rgb(219, 238, 195);
+}
+.navbar-toggler{
+    border: none;
+    color: darkgreen;
+}
+.nb{
+    background-color: rgb(203, 228, 170);
+}
+
+.navbar-brand{
+    color: darkgreen;
+    font-weight: bold;
+}
+@media only screen and (min-width:991px) and (max-width: 12500px) {
+
+    .navbar-nav {
+
+        margin: auto;
+    }
+
+    .nav-link {
+        margin-left: 1.2rem;
+    }
+}
+
+
+
+
+.row {
+    width: 90%;
+    margin: auto;
+}
+
+.filter_s {
+    background-color: darkgreen;
+    display: flex;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, .3);
+    padding: 1rem;
+}
+
+.rng {
+    width: 40%;
+    float: left;
+
+    margin: auto;
+}
+
+.srch {
+    margin-left: auto;
+    width: 30%;
+
+    margin: auto;
+}
+
+.ip {
+    width: 80%;
+    padding: 0.24rem 1rem;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+.carth {
+    border: solid darkgreen;
+   
+    box-shadow: 8px 8px 7px rgb(144, 189, 144);
+}
+.carth:hover{
+    transform:scale(1.01);
+  
+    transition-duration: 1s;
+}
+.img-h {
+    width: 100%;
+    height: 260px;
+}
+
+.viewbtn {
+
+    background-color:darkgreen;
+    width: 30%;
+    color: white;
+    border-radius: 5px;
+    margin: auto;
+}
+.viewbtn:hover{
+    background-color: green;
+    transition-duration: 0.5s;
+}
+.bookbtn:hover{
+    background-color: green;
+    transition-duration: 0.5s;
+}
+
+.lp {
+    font-size: 20px;
+    color: rgb(3, 153, 3);
+}
+
+.h6 {
+    text-align: center;
+    margin: .5rem auto;
+}
+
+.bookbtn {
+
+    background-color: darkgreen;
+    width: 30%;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+.price-h {
+    width: 30%;
+    font-weight: bold;
+    margin: auto;
+}
+
+.btn-c {
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.content-h {
+    width: 95%;
+
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin: auto;
+}
+
+.loci {
+    font-size: 23px;
+}
+
+
+@media only screen and (min-width:1123px) and (max-width: 1465px) {
+
+    .row {
+        width: 99%;
+        margin: auto;
+    }
+
+    .content-h {
+        width: 98%;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        margin: auto;
+    }
+
+    .price-h {
+        width: 33%;
+
+        margin: auto;
+    }
+
+    .bookbtn {
+
+        width: 30%;
+        border-radius: 5px;
+        margin: auto;
+
+    }
+
+    .price-h {
+        width: 35%;
+
+        margin: auto;
+    }
+
+    .viewbtn {
+
+
+        width: 30%;
+        border-radius: 5px;
+        margin: auto;
+    }
+
+    .lp {
+        font-size: 18px;
+    }
+
+    .img-h {
+        width: 100%;
+        height: 260px;
+    }
+
+}
+
+@media only screen and (min-width:767px) and (max-width: 1123px) {
+
+    .row {
+        width: 100%;
+        margin: auto;
+    }
+
+    .content-h {
+        width: 100%;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        margin: auto;
+    }
+
+    .price-h {
+        width: auto;
+
+        margin: auto;
+    }
+
+    .bookbtn {
+
+
+        width: 30%;
+        border-radius: 5px;
+        margin: auto;
+
+    }
+
+    .price-h {
+        width: 35%;
+
+        margin: auto;
+    }
+
+    .viewbtn {
+
+
+        width: 30%;
+        border-radius: 5px;
+        margin: auto;
+    }
+
+    .lp {
+        font-size: 14px;
+    }
+
+    .img-h {
+        width: 100%;
+        height: 200px;
+    }
+
+    .h6 {
+        text-align: center;
+        margin: .5rem auto;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:530px) and (max-width: 767px) {
+    .row {
+        width: 95%;
+    }
+
+    .img-h {
+        width: 100%;
+        height: 350px;
+    }
+
+    .filter_s {
+
+        display: flex;
+        padding: 1rem .5rem;
+    }
+
+    .rng {
+        width: 63%;
+        float: left;
+
+        margin: auto;
+    }
+
+    .srch {
+        margin-left: auto;
+        width: 35%;
+
+        margin: auto;
+    }
+
+    .ip {
+        width: 100%;
+        padding: 0.24rem 1rem;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+
+    }
+
+    .ant-picker-panels {
+        flex-direction: column;
+    }
+
+
+}
+
+@media only screen and (min-width:450px) and (max-width: 530px) {
+    .row {
+        width: 98%;
+    }
+
+    .img-h {
+        width: 100%;
+        height: 290px;
+    }
+
+    .h5 {
+        font-size: 18px;
+    }
+
+    .h6 {
+        text-align: center;
+        margin: .5rem auto;
+        font-size: 18px;
+    }
+
+    .content-h {
+        width: 100%;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        margin: auto;
+    }
+
+    .lp {
+        font-size: 18px;
+    }
+
+    .loci {
+        font-size: 20px;
+    }
+
+    .filter_s {
+
+        display: flex;
+        padding: 1rem .5rem;
+    }
+
+    .rng {
+        width: 55%;
+        float: left;
+
+        margin: auto;
+    }
+
+    .srch {
+        margin-left: auto;
+        width: 40%;
+
+        margin: auto;
+    }
+
+    .ip {
+        width: 100%;
+        padding: 0.24rem 1rem;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+
+    }
+
+    .ant-picker-panels {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:340px) and (max-width: 450px) {
+    .row {
+        width: 98%;
+    }
+
+    .img-h {
+        width: 100%;
+        height: 240px;
+    }
+
+    .h5 {
+        font-size: 16px;
+    }
+
+    .h6 {
+        text-align: center;
+        margin: .5rem auto;
+        font-size: 16px;
+    }
+
+    .content-h {
+        width: 100%;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        margin: auto;
+    }
+
+    .lp {
+        font-size: 16px;
+    }
+
+    .loci {
+        font-size: 20px;
+    }
+
+    .bookbtn {
+
+        width: 30%;
+        border-radius: 5px;
+        margin: auto;
+
+    }
+
+    .price-h {
+        width: 35%;
+
+        margin: auto;
+    }
+
+    .viewbtn {
+
+
+        width: 30%;
+        border-radius: 5px;
+        margin: auto;
+    }
+
+    .filter_s {
+
+        display: flex;
+        padding: 1rem .5rem;
+    }
+
+    .rng {
+        width: 50%;
+        float: left;
+
+        margin: auto;
+    }
+
+    .srch {
+        margin-left: auto;
+        width: 45%;
+
+        margin: auto;
+    }
+
+    .ip {
+        width: 100%;
+        padding: 0.24rem 1rem;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+
+    }
+
+    .ant-picker-panels {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:40px) and (max-width: 340px) {
+    .row {
+        width: 100%;
+    }
+
+    .img-h {
+        width: 100%;
+        height: 200px;
+    }
+
+    .h5 {
+        font-size: 14px;
+    }
+
+    .h6 {
+        text-align: center;
+        margin: .5rem auto;
+        font-size: 14px;
+    }
+
+    .content-h {
+        width: 100%;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        margin: auto;
+    }
+
+    .lp {
+        font-size: 14px;
+    }
+
+    .loci {
+        font-size: 15px;
+    }
+
+    .bookbtn {
+
+
+        width: 30%;
+        border-radius: 5px;
+        margin: auto;
+
+    }
+
+    .price-h {
+        width: 35%;
+
+        margin: auto;
+    }
+
+    .viewbtn {
+
+
+        width: 30%;
+        border-radius: 5px;
+        margin: auto;
+    }
+
+    .filter_s {
+
+        display: flex;
+        padding: 1rem .5rem;
+    }
+
+    .rng {
+        width: 45%;
+        float: left;
+
+        margin: auto;
+    }
+
+    .srch {
+        margin-left: auto;
+        width: 52%;
+
+        margin: auto;
+    }
+
+    .ip {
+        width: 100%;
+        padding: 0.24rem 1rem;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+
+    }
+
+    .ant-picker-panels {
+        flex-direction: column;
+    }
+}
+
+
+.d-heading {
+    text-align: center;
+    color: white;
+}
+
+.con-dt {
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+    margin-top: 3rem;
+    padding-bottom: .3rem;
+
+}
+
+.con {
+    width: 100%;
+}
+
+.img-d {
+    width: 100%;
+    height: 500px;
+}
+
+.img-m {
+    margin-top: 2rem;
+}
+
+.con-dtd {
+    width: 60%;
+    margin: auto;
+    padding-bottom: .8rem;
+    margin-bottom: 5rem;
+   
+  
+}
+
+.d-h1 {
+    margin: 2rem 0rem;
+}
+
+.d-p {
+    font-size: 25px;
+}
+
+.left-d {
+    width: 50%;
+   
+    display: inline-block;
+    margin-bottom: 1.8rem;
+
+}
+
+.right-d {
+   
+    display: inline-block;
+    width: 50%;
+
+    margin-bottom: 1.8rem;
+}
+
+.inp-o {
+    display: block;
+    margin: auto;
+    width: 90%;
+    text-transform: capitalize;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding: .55rem 1rem;
+    background-color: white;
+border: solid darkgreen;
+    margin-top: 1.5rem;
+}
+
+
+
+.orderbtn {
+    background-color: red;
+    padding: .3rem 1.3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btndiv {
+    width: 35%;
+    margin: auto;
+    margin-top: 1.5rem;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.sgn-ip {
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    border: solid darkgreen;
+   
+    padding: .6rem 1rem;
+    margin-top: 1.5rem;
+}
+
+.btn-sgn {
+    width: 100%;
+    padding: .45rem;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+    background-color: darkgreen;
+}
+
+.btn-sgn:hover {
+    background-color: green;
+    transition-duration: .5s;
+}
+
+
+
+.orderbtn:hover {
+    background-color: yellow;
+    transition-duration: .5s;
+}
+
+@media only screen and (min-width:1100px) and (max-width: 1400px) {
+    .con-dt {
+        width: 90%;
+
+        margin: auto;
+        padding-top: 1rem;
+        margin-top: 3rem;
+
+    }
+
+    .img-d {
+        width: 100%;
+        height: 500px;
+    }
+
+    .img-m {
+        margin-top: 2rem;
+    }
+
+    .con-dtd {
+        width: 70%;
+        margin: auto;
+        padding-bottom: .8rem;
+        margin-bottom: 3rem;
+    }
+
+    .inp-o {
+        display: block;
+        margin: auto;
+        border: solid darkgreen;
+        width: 90%;
+        border-radius: 8px;
+        outline: none;
+        padding: .3rem 1rem;
+        margin-top: 1.5rem;
+    }
+}
+
+@media only screen and (min-width:850px) and (max-width: 1100px) {
+    .con-dt {
+        width: 90%;
+
+        margin: auto;
+        padding-top: 1rem;
+        margin-top: 3rem;
+
+    }
+
+    .img-d {
+        width: 100%;
+        height: 400px;
+    }
+
+    .img-m {
+        margin-top: 3rem;
+    }
+
+    .con-dtd {
+        width: 75%;
+        margin: auto;
+        padding-bottom: .8rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (min-width:650px) and (max-width: 850px) {
+    .con-dt {
+        width: 90%;
+
+        margin: auto;
+        padding-top: 1rem;
+        margin-top: 3rem;
+
+    }
+
+    .img-d {
+        width: 100%;
+        height: 360px;
+    }
+
+    .img-m {
+        margin-top: 3rem;
+    }
+
+    .con-dtd {
+        width: 90%;
+        margin: auto;
+        padding-bottom: .8rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (min-width:550px) and (max-width: 650px) {
+    .con-dt {
+        width: 90%;
+
+        margin: auto;
+        padding-top: 1rem;
+        margin-top: 3rem;
+
+    }
+
+    .img-d {
+        width: 100%;
+        height: 360px;
+    }
+
+    .img-m {
+        margin-top: 3rem;
+    }
+
+    .con-dtd {
+        width: 100%;
+        margin: auto;
+        padding-bottom: .8rem;
+        margin-bottom: 3rem;
+    }
+
+    .left-d {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 0px;
+
+    }
+
+    .right-d {
+        display: inline-block;
+        width: 100%;
+
+
+    }
+
+    .d-heading {
+        text-align: left;
+        margin-left: 1rem;
+    }
+}
+
+
+@media only screen and (min-width:450px) and (max-width: 550px) {
+    .con-dt {
+        width: 94%;
+
+        margin: auto;
+        padding-top: 1rem;
+        margin-top: 3rem;
+
+    }
+
+    .img-d {
+        width: 100%;
+        height: 290px;
+    }
+
+    .img-m {
+        margin-top: 2.2rem;
+    }
+
+    .con-dtd {
+        width: 100%;
+        margin: auto;
+        padding-bottom: .8rem;
+        margin-bottom: 3rem;
+    }
+
+    .left-d {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 0px;
+
+    }
+
+    .right-d {
+        display: inline-block;
+        width: 100%;
+
+
+    }
+
+    .d-heading {
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    .d-p {
+        font-size: 20px;
+    }
+
+    .orderbtn {
+
+        padding: .4rem 1rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width: 450px) {
+    .con-dt {
+        width: 94%;
+
+        margin: auto;
+        padding-top: 1rem;
+        margin-top: 3rem;
+
+    }
+
+    .img-d {
+        width: 100%;
+        height: 240px;
+    }
+
+    .img-m {
+        margin-top: 2rem;
+    }
+
+    .con-dtd {
+        width: 100%;
+        margin: auto;
+        padding-bottom: .8rem;
+        margin-bottom: 3rem;
+    }
+
+    .left-d {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 0px;
+
+    }
+
+    .right-d {
+        display: inline-block;
+        width: 100%;
+
+
+    }
+
+    .d-heading {
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    .d-p {
+        font-size: 20px;
+    }
+
+    .orderbtn {
+
+        padding: .4rem 1rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width:50px) and (max-width: 350px) {
+    .con-dt {
+        width: 94%;
+
+        margin: auto;
+        padding-top: 1rem;
+        margin-top: 3rem;
+
+    }
+
+    .img-d {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-m {
+        margin-top: 2rem;
+    }
+
+    .con-dtd {
+        width: 100%;
+        margin: auto;
+        padding-bottom: .8rem;
+        margin-bottom: 3rem;
+    }
+
+    .left-d {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 0px;
+
+    }
+
+    .right-d {
+        display: inline-block;
+        width: 100%;
+
+
+    }
+
+    .d-heading {
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    .d-p {
+        font-size: 20px;
+    }
+
+    .orderbtn {
+
+        padding: .3rem .8rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 1000px) {
+    .btndiv {
+        width: 40%;
+        margin: auto;
+        margin-top: 1.5rem;
+        border-radius: 7px;
+        background-color: yellow;
+
+    }
+
+    .sgn-ip {
+        display: block;
+        margin: auto;
+        width: 60%;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        border: solid darkgreen;
+        padding: .6rem 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .btn-sgn {
+        width: 100%;
+        padding: .35rem;
+        border: none;
+        border-radius: 7px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width: 600px) {
+    .btndiv {
+        width: 60%;
+        margin: auto;
+        margin-top: 1.5rem;
+        border-radius: 7px;
+        background-color: yellow;
+
+    }
+
+    .sgn-ip {
+        display: block;
+        margin: auto;
+        width: 80%;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        padding: .4rem 1rem;
+        margin-top: 1.5rem;
+        border: solid darkgreen;
+    }
+
+    .btn-sgn {
+        width: 100%;
+        padding: .45rem;
+        border: none;
+        border-radius: 7px;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:50px) and (max-width: 500px) {
+    .btndiv {
+        width: 60%;
+        margin: auto;
+        margin-top: 1.5rem;
+        border-radius: 7px;
+        background-color: yellow;
+
+    }
+
+    .sgn-ip {
+        display: block;
+        margin: auto;
+        width: 80%;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        border: solid darkgreen;
+        padding: .4rem 1rem;
+        margin-top: 1.5rem;
+    }
+    .btn-sgn {
+        width: 100%;
+        padding: .45rem;
+        border: none;
+        border-radius: 7px;
+        font-size: 20px;
+    }
+}
+
+.foot-h{
+    width: 50%;
+
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.foot-h2{
+    width: 40%;
+    
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.link-f{
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+.link-f:hover{
+    color: aqua;
+}
+.inst1{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    padding: 5px;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+}
+
+.inst1:hover{
+    background-color: lightgreen;
+    transition-duration: 0.7s;
+}
+
+.tt{
+    color: darkgreen;
+}
+.insta-link {
+    width: 100%;
+    text-align: center;
+}
+@media only screen and (min-width:400px) and (max-width: 850px) {
+    .inst1{
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        padding: 5px;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .link-f{
+        margin: auto;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+    }
+    .foot-h{
+        width: 100%;
+      
+        margin: auto;
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    .foot-h2{
+        width: 65%;
+    
+        margin: auto;
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width:10px) and (max-width: 400px) {
+    .inst1{
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        padding: 5px;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .link-f{
+        margin: auto;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+    }
+    .foot-h{
+        width: 100%;
+      
+        margin: auto;
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    .foot-h2{
+        width: 100%;
+       
+        margin: auto;
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
