@@ -4,7 +4,7 @@ const Homes = ({ d, fromdate, todate }) => {
     return (
         <div className='carth' >
             <img
-                src={require(`../imagescontainer/${d.img}`)}
+                src={d.img}
                 className='img-h'
             />
 
