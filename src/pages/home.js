@@ -22,10 +22,10 @@ function Home() {
 
     const getdata = async (e) => {
         try {
-            const res = await axios.get("https://hotelbackend-etjh.onrender.com/home", { withCredentials: true });
+            const res = await axios.get("https://roomrapidbackend.onrender.com/home", { withCredentials: true });
             setOt(res.data)
             setDuplicatesroom(res.data)
-            const r = await axios.get("https://hotelbackend-etjh.onrender.com/homename", { withCredentials: true });
+            const r = await axios.get("https://roomrapidbackend.onrender.com/homename", { withCredentials: true });
             setNm(r.data)
             setLoading(true)
         } catch (error) {
