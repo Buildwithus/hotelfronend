@@ -17,7 +17,7 @@ function Signup() {
 
   const submitdata = async (e) => {
     e.preventDefault();
-    await axios.post("https://hotelbackend-etjh.onrender.com/signup", inp)
+    await axios.post("https://roomrapidbackend.onrender.com/signup", inp)
       .then((res) => {
         alert(res.data.message)
         if (res.data.message === "Successfully created") {
