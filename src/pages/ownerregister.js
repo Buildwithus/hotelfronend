@@ -67,14 +67,14 @@ function Owner() {
         fromdata.append('wifi', inp.wifi)
         fromdata.append('parking', inp.parking)
         fromdata.append('roomsize', inp.roomsize)
-        await axios.post("https://hotelbackend-etjh.onrender.com/ownerreg", fromdata)
+        await axios.post("https://roomrapidbackend.onrender.com/ownerreg", fromdata)
             .then((res) => alert(res.data.message));
 
     }
 
     const getdata = async () => {
         try {
-            const res = await axios.get("https://hotelbackend-etjh.onrender.com/ownerreg", { withCredentials: true });
+            const res = await axios.get("https://roomrapidbackend.onrender.com/ownerreg", { withCredentials: true });
             setOpt(res.data);
             console.log(res.data)
             if (!Cookies.get("jsonwentokenn")) {
