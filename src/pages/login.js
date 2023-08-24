@@ -25,7 +25,7 @@ function Login() {
 
   const submitdata = async (e) => {
     e.preventDefault();
-    await axios.post("https://hotelbackend-etjh.onrender.com/login", inp, config)
+    await axios.post("https://roomrapidbackend.onrender.com/login", inp, config)
       .then(res => {
         alert(res.data.message)
         if (res.data.message === "Successfully login") {
