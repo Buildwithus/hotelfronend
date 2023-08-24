@@ -18,10 +18,10 @@ function Postdetail() {
     const history = useNavigate();
     const getdata = async (e) => {
         try {
-            const res = await axios.get(`https://hotelbackend-etjh.onrender.com/home/${id}`, { withCredentials: true });
+            const res = await axios.get(`https://roomrapidbackend.onrender.com/home/${id}`, { withCredentials: true });
             setOut(res.data)
             console.log(res.data)
-            const r = await axios.get("https://hotelbackend-etjh.onrender.com/homename", { withCredentials: true });
+            const r = await axios.get("https://roomrapidbackend.onrender.com/homename", { withCredentials: true });
             setNm(r.data)
             console.log(res.data)
             setLoading(true)
@@ -57,13 +57,13 @@ function Postdetail() {
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img className='img-d' src={require(`../imagescontainer/${out.img}`)} class="d-block img-d w-100" alt="..." />
+                                    <img className='img-d' src={out.img} class="d-block img-d w-100" alt="..." />
                                 </div>
                                 <div class="carousel-item">
-                                    <img className='img-d' src={require(`../imagescontainer/${out.img1}`)} class="d-block img-d w-100" alt="..." />
+                                    <img className='img-d' src={out.img1} class="d-block img-d w-100" alt="..." />
                                 </div>
                                 <div class="carousel-item">
-                                    <img className='img-d' src={require(`../imagescontainer/${out.img2}`)} class="d-block img-d w-100" alt="..." />
+                                    <img className='img-d' src={out.img2} class="d-block img-d w-100" alt="..." />
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -103,15 +103,15 @@ function Postdetail() {
                             </div>;
                         })}
                         <img
-                            src={require(`../imagescontainer/${out.img}`)}
+                            src={out.img}
                             className='img-d img-m'
                         />
                         <img
-                            src={require(`../imagescontainer/${out.img1}`)}
+                            src={out.img1}
                             className='img-d img-m'
                         />
                         <img
-                            src={require(`../imagescontainer/${out.img2}`)}
+                            src={out.img2}
                             className='img-d img-m'
                         />
                        
