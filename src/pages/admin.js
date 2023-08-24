@@ -18,13 +18,13 @@ function Admin() {
     const history = useNavigate()
     const getdata = async (e) => {
         try {
-            const res = await axios.get("https://hotelbackend-etjh.onrender.com/adminhome", { withCredentials: true });
+            const res = await axios.get("https://roomrapidbackend.onrender.com/adminhome", { withCredentials: true });
             setOut(res.data)
-            const r = await axios.get("https://hotelbackend-etjh.onrender.com/adminhomename", { withCredentials: true });
+            const r = await axios.get("https://roomrapidbackend.onrender.com/adminhomename", { withCredentials: true });
             setNm(r.data)
-            const k = await axios.get("https://hotelbackend-etjh.onrender.com/ownerreg", { withCredentials: true });
+            const k = await axios.get("https://roomrapidbackend.onrender.com/ownerreg", { withCredentials: true });
             setOpt(k.data);
-            const t = await axios.get("https://hotelbackend-etjh.onrender.com/orderbookedadmin", { withCredentials: true });
+            const t = await axios.get("https://roomrapidbackend.onrender.com/orderbookedadmin", { withCredentials: true });
             setRoom(t.data)
             console.log(k.data.admin)
             setLoading(true)
