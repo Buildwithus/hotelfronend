@@ -14,7 +14,7 @@ function Mypost() {
   const [loading, setLoading] = useState(false)
   const getdata = async () => {
     try {
-      const res = await axios.get("https://hotelbackend-etjh.onrender.com/postedroom", { withCredentials: true })
+      const res = await axios.get("https://roomrapidbackend.onrender.com/postedroom", { withCredentials: true })
       setPost(res.data)
       console.log(res.data)
       setLoading(true)
@@ -43,15 +43,15 @@ function Mypost() {
             return <div className='con-dtd' style={{ border: "solid darkgreen", backgroundColor: "rgb(206, 226, 206)" }}>
               <p className='d-p' style={{ fontWeight: "bold", color: "green" }}>Room Id: {element._id}</p>
               <img
-                src={require(`../imagescontainer/${element.img}`)}
+                src={element.img}
                 className='img-d img-m'
               />
               <img
-                src={require(`../imagescontainer/${element.img1}`)}
+                src={element.img1}
                 className='img-d img-m'
               />
               <img
-                src={require(`../imagescontainer/${element.img2}`)}
+                src={element.img2}
                 className='img-d img-m'
               />
               <h1 className='d-h1'>Information:</h1>
