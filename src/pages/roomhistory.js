@@ -15,7 +15,7 @@ function Roomhistory() {
     const [loading, setLoading] = useState(false)
     const getdata = async () => {
         try {
-            const d = await axios.get("https://hotelbackend-etjh.onrender.com/orderbooked",{ withCredentials: true });
+            const d = await axios.get("https://roomrapidbackend.onrender.com/orderbooked",{ withCredentials: true });
             setRoom(d.data);
             console.log(d.data);
             setLoading(true)
@@ -40,7 +40,7 @@ function Roomhistory() {
                 {loading ? Array.isArray(room) ? room.map((d) => (
                     <div className='con-dtd' >
                         <img
-                            src={require(`../imagescontainer/${d.img}`)}
+                            src={d.img}
                             className='img-d img-m'
                         />
                         <h1 className='d-h1'>Information:</h1>
