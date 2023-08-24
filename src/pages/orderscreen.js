@@ -24,7 +24,7 @@ function Orderscreen({ match }) {
 
     const getdata = async (e) => {
         try {
-            const res = await axios.get(`https://hotelbackend-etjh.onrender.com/home/${id}`, { withCredentials: true });
+            const res = await axios.get(`https://roomrapidbackend.onrender.com/home/${id}`, { withCredentials: true });
             setT(res.data)
             setOrder(res.data)
             setLoading(true)
@@ -55,7 +55,7 @@ function Orderscreen({ match }) {
             totalprice
 
         }
-        axios.post("https://hotelbackend-etjh.onrender.com/orderbooked", bookingdetails)
+        axios.post("https://roomrapidbackend.onrender.com/orderbooked", bookingdetails)
             .then((res) => alert(res.data.message));
     }
     return (
@@ -69,7 +69,7 @@ function Orderscreen({ match }) {
                 <div className='con-dt'>
                     <div className='con-dtd'>
                         <img
-                            src={require(`../imagescontainer/${t.img}`)}
+                            src={t.img}
                             className='img-d'
                         />
                         <h1 className='d-h1'>Information:</h1>
